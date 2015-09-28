@@ -35,11 +35,11 @@
   <ItemGroup>
     <Reference Include="AESCryptNET, Version=1.0.5738.39344, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\AESCryptNET.dll</HintPath>
+      <HintPath>dll\AESCryptNET\AESCryptNET.dll</HintPath>
     </Reference>
     <Reference Include="gs_config, Version=1.8.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\gs_config.dll</HintPath>
+      <HintPath>dll\Grandstream\gs_config.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -106,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dll\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
