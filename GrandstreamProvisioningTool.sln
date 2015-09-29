@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grandstream Provisioning Tool", "Grandstream Provisioning Tool\Grandstream Provisioning Tool.csproj", "{4807D35B-39EC-49DC-83BC-D7DA0C8C30D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrandstreamProvisioningTool", "GrandstreamProvisioningTool\GrandstreamProvisioningTool.csproj", "{4807D35B-39EC-49DC-83BC-D7DA0C8C30D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
