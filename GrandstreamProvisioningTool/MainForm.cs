@@ -852,7 +852,7 @@ namespace Grandstream_Provisioning_Tool
                 groupBoxFXS7.Enabled = false;
                 groupBoxFXS8.Enabled = false;
 
-                loadPKeyDefinitionFile(Directory.GetCurrentDirectory() + @"\deviceinfo\HT502.txt");
+                loadPKeyDefinitionFile(Directory.GetCurrentDirectory() + @"\deviceinfo\HT502_definitions.txt");
                 configOverride = new ConfigOverride("HT502", Directory.GetCurrentDirectory() + @"\deviceinfo\HT502_override.txt");
             }
             else if(comboBox1.SelectedItem.ToString().CompareTo("GXW4004") == 0)
