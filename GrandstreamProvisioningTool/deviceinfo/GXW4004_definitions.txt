@@ -1,0 +1,9 @@
+P2 = Admin password for web interface | 30 ascii (33-126) characters
+P38 = Layer 3 QoS (IP Diff-Serv or Precedence value for RTP) | Number: 0 to 63
+P51 = Layer 2 QoS. 802.1Q/VLAN Tag (VLAN classification for RTP) | Number: 0 to 4095
+P87 = Layer 2 QoS. 802.1p priority value (0 - 7) | Number: 0 to 7
+P230 = 802.1p priority value (NATed traffic) | Number: 0 to 7
+P76 = STUN server address
+P84 = Keep-alive interval (in seconds. default 20 seconds) | Number: 0 to 160
+P474 = Use STUN to detect network connectivity. 0 - No, 1 - Yes. 
+P475 = Total STUN response misses to restart DHCP (minimum=3 default=5)

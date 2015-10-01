@@ -866,6 +866,7 @@ namespace Grandstream_Provisioning_Tool
                 groupBoxFXS7.Enabled = false;
                 groupBoxFXS8.Enabled = false;
 
+                loadPKeyDefinitionFile(Directory.GetCurrentDirectory() + @"\deviceinfo\GXW4004_definitions.txt");
                 configOverride = new ConfigOverride("GXW4004", Directory.GetCurrentDirectory() + @"\deviceinfo\GXW4004_override.txt");
             }
             else if(comboBox1.SelectedItem.ToString().CompareTo("GXW4008") == 0)
@@ -878,6 +879,9 @@ namespace Grandstream_Provisioning_Tool
                 groupBoxFXS6.Enabled = true;
                 groupBoxFXS7.Enabled = true;
                 groupBoxFXS8.Enabled = true;
+
+                loadPKeyDefinitionFile(Directory.GetCurrentDirectory() + @"\deviceinfo\GXW4008_definitions.txt");
+                configOverride = new ConfigOverride("GXW4008", Directory.GetCurrentDirectory() + @"\deviceinfo\GXW4008_override.txt");
             }
             else if (comboBox1.SelectedItem.ToString().CompareTo("Generic") == 0)
             {
@@ -890,7 +894,7 @@ namespace Grandstream_Provisioning_Tool
                 groupBoxFXS7.Enabled = false;
                 groupBoxFXS8.Enabled = false;
 
-
+                pKeyDefinitions.Clear();
                 configOverride = null;
             }
 
