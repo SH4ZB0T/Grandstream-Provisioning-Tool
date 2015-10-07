@@ -64,7 +64,7 @@ namespace Grandstream_Provisioning_Tool
 
             if (!String.IsNullOrEmpty(encryptionPassword))
             {
-                byte[] configEncrypted = net.infodox.AESCryptNET.AESCryptNET.EncryptCBC(configString.ToArray(), encryptionPassword, 256);
+                byte[] configEncrypted = net.infodox.AESCryptNET.EncryptCBC(configString.ToArray(), encryptionPassword, 256);
 
                 File.WriteAllBytes(filePath, configEncrypted);
             }
